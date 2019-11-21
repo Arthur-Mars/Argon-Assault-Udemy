@@ -5,10 +5,13 @@ using UnityStandardAssets.CrossPlatformInput;
 
 public class PlayerShip : MonoBehaviour
 {
+    [SerializeField] public Transform aimTarget;
 
     [Tooltip("In ms^-1")] [SerializeField] float speed = 0.4f;
     [Tooltip("In m")] [SerializeField] float xRange = 0.16f;
     [Tooltip("In m")] [SerializeField] float yRange = 0.083f;
+
+    [Space]
 
     [SerializeField] float positionPitchFactor = 5f; // fields to move the pitch
     [SerializeField] float controlPitchFactor = 15f;
@@ -17,6 +20,10 @@ public class PlayerShip : MonoBehaviour
     [SerializeField] float controlYawFactor = 15f;
 
     [SerializeField] float controlRollFactor = -15f;
+
+    [Space]
+
+    [SerializeField] public float lookSpeed = 3400;
 
     float xThrow, yThrow;
 
@@ -31,6 +38,7 @@ public class PlayerShip : MonoBehaviour
     {
         ProcessTranslation();
         ProcessRotation();
+        //RotationLook(xThrow, yThrow, lookSpeed);
     }
 
     private void ProcessRotation()
@@ -65,4 +73,11 @@ public class PlayerShip : MonoBehaviour
 
         transform.localPosition = new Vector3(clampedXPosition, clampedYPosition, transform.localPosition.z);
     }
+
+    //void RotationLook(float horizontal, float vertical, float speed)
+    //{
+    //    aimTarget.parent.position = Vector3.zero;
+    //    aimTarget.localPosition = new Vector3(horizontal, vertical, 1);
+    //    transform.rotation = Quaternion.RotateTowards(transform.rotation, Quaternion.LookRotation(aimTarget.position), Mathf.Deg2Rad * speed * Time.deltaTime);
+    //}
 }
