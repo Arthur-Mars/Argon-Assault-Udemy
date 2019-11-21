@@ -348,7 +348,7 @@ Camera:
     height: 1
   near clip plane: 0.1
   far clip plane: 1000
-  field of view: 60
+  field of view: 75
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -394,7 +394,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pathCreator: {fileID: 136252770}
-  speed: 3
+  speed: 2
 --- !u!1001 &1493190545
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -408,15 +408,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 909d03be05740f848b26264b88a92c6b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 0.008730888
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 909d03be05740f848b26264b88a92c6b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.0053506335
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 909d03be05740f848b26264b88a92c6b, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 0.0061977506
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 909d03be05740f848b26264b88a92c6b, type: 3}
       propertyPath: m_LocalRotation.x
@@ -585,6 +585,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 14c49c11d01648c4a94dbde6ffbc0968, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.5
-  xRange: 0.12
-  yRange: 0.083
+  speed: 0.3
+  xRange: 0.16
+  yRange: 0.12
+  positionPitchFactor: 5
+  controlPitchFactor: 15
+  positionYawFactor: 15.49
+  controlYawFactor: 15
+  controlRollFactor: -26
