@@ -40,6 +40,11 @@ public class PlayerShip : MonoBehaviour
         playerModel = transform.GetChild(0); //after creating the Transform playerModel above, we get the child of the object (ship model) to complete the rotation
     }
 
+    void OnTriggerEnter(Collider other)
+    {
+        print("Player triggered something");
+    }
+
     // Update is called once per frame
     void Update()
     {
