@@ -8,9 +8,10 @@ using UnityEngine.Rendering.PostProcessing;
 /* NOTE: All the Cinemachine related code will be left out until I learn more about the Cinemachine 
          functions and features and how to utilize them properly without destroying the project */
 
-public class PlayerShip : MonoBehaviour
+public class PlayerController : MonoBehaviour
 {
     private Transform playerModel; // this is how we make the ship rotate by 90 degrees while moving along the x-axis
+    bool controlsAreEnabled = true;
 
     [Header("Public References")]
     public Transform aimTarget;
@@ -23,26 +24,27 @@ public class PlayerShip : MonoBehaviour
     [Space]
 
     [Header("Parameters")]
-    public float xySpeed = 18;
-    public float lookSpeed = 3400;
+    public float xySpeed = 0.2f;
+    public float lookSpeed = 10000f;
 
     [Space]
 
     [Header("Particles")]
     public ParticleSystem trail;
-    public ParticleSystem circle;
+    public ParticleSystem explosion;
     public ParticleSystem barrel;
     public ParticleSystem stars;
+
+    [Header("Sound FX")]
+    public AudioClip explosionSound;
+
+    AudioSource audioSource;
 
     // Start is called before the first frame update
     void Start()
     {
         playerModel = transform.GetChild(0); //after creating the Transform playerModel above, we get the child of the object (ship model) to complete the rotation
-    }
-
-    void OnTriggerEnter(Collider other)
-    {
-        print("Player triggered something");
+        audioSource = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -51,9 +53,12 @@ public class PlayerShip : MonoBehaviour
         float h = joystick ? Input.GetAxis("Horizontal") : Input.GetAxis("Mouse X");
         float v = joystick ? Input.GetAxis("Vertical") : Input.GetAxis("Mouse Y");
 
-        LocalMove(h, -v, xySpeed);
-        RotationLook(h, -v, lookSpeed);
-        HorizontalLean(playerModel, h, 80, 0.035f);
+        if (controlsAreEnabled)
+        {
+            LocalMove(h, -v, xySpeed);
+            RotationLook(h, -v, lookSpeed);
+            HorizontalLean(playerModel, h, 80, 0.035f);
+        }
         
 
         if (Input.GetButtonDown("BumperLeft") || Input.GetButtonDown("BumperRight"))
@@ -107,6 +112,14 @@ public class PlayerShip : MonoBehaviour
     void Chromatic(float x)
     {
         Camera.main.GetComponent<PostProcessVolume>().profile.GetSetting<ChromaticAberration>().intensity.value = x;
+    }
+
+    void OnPlayerDeath() // called by string referene
+    {
+        controlsAreEnabled = false;
+        explosion.Play();
+        audioSource.PlayOneShot(explosionSound);
+        print("control is frozen");
     }
 
 }
