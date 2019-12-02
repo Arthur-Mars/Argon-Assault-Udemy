@@ -170,9 +170,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   trail: {fileID: 0}
-  explosion: {fileID: 687928857479071908, guid: a16f12896be29804a8a51615b347b0dd,
-    type: 3}
-  explosionSound: {fileID: 8300000, guid: ce42d4b9e89eb204bb08fdde70899437, type: 3}
+  explosion: {fileID: 0}
+  deathFX: {fileID: 687928857479071911, guid: a16f12896be29804a8a51615b347b0dd, type: 3}
 --- !u!1001 &2412482226604856634
 PrefabInstance:
   m_ObjectHideFlags: 0

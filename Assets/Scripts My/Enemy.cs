@@ -7,29 +7,28 @@ public class Enemy : MonoBehaviour
 
     [Header("Particles")]
     public ParticleSystem trail;
-    public ParticleSystem explosion;
 
-    [Header("Sound FX")]
-    public AudioClip explosionSound;
+    [Space]
 
-    AudioSource audioSource;
+    [SerializeField] GameObject deathFX;
 
     // Start is called before the first frame update
     void Start()
     {
-        audioSource = GetComponent<AudioSource>();
+        //AddNonTriggerBoxCollider(); commented function out due to box colliders being way too large
     }
 
-    // Update is called once per frame
-    void Update()
+    /*private void AddNonTriggerBoxCollider()
     {
-        
-    }
+        Collider QordBoxCollider = this.gameObject.AddComponent<BoxCollider>();
+        QordBoxCollider.isTrigger = false;
+    }*/
 
-    void OnParticleCollision(GameObject other) // detects collision with the particles (bullets)
+
+    private void OnParticleCollision(GameObject other) // detects collision with the particles (bullets)
     {
-        explosion.Play();
-        audioSource.PlayOneShot(explosionSound);
+        Instantiate(deathFX, transform.position, Quaternion.identity); // create deathFX, at transform position, and don't rotate it
+        print("This is working");
         Destroy(this.gameObject);
     }
 }

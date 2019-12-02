@@ -5395,6 +5395,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2407620378403059395, guid: 816007cb65f658d458ffe2c955d19803,
+        type: 3}
+      propertyPath: explosionSound
+      value: 
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 816007cb65f658d458ffe2c955d19803, type: 3}
 --- !u!4 &658929534 stripped
@@ -7152,6 +7157,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2407620378403059395, guid: 816007cb65f658d458ffe2c955d19803,
+        type: 3}
+      propertyPath: explosion
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 816007cb65f658d458ffe2c955d19803, type: 3}
