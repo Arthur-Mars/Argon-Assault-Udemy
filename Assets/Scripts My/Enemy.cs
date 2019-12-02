@@ -11,6 +11,7 @@ public class Enemy : MonoBehaviour
     [Space]
 
     [SerializeField] GameObject deathFX;
+    [SerializeField] Transform parent;
 
     // Start is called before the first frame update
     void Start()
@@ -25,10 +26,10 @@ public class Enemy : MonoBehaviour
     }*/
 
 
-    private void OnParticleCollision(GameObject other) // detects collision with the particles (bullets)
+    void OnParticleCollision(GameObject other) // detects collision with the particles (bullets)
     {
-        Instantiate(deathFX, transform.position, Quaternion.identity); // create deathFX, at transform position, and don't rotate it
-        print("This is working");
-        Destroy(this.gameObject);
+        GameObject fx = Instantiate(deathFX, transform.position, Quaternion.identity); // create deathFX, at transform position, and don't rotate it
+        fx.transform.parent = parent;
+        Destroy(gameObject);
     }
 }

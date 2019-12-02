@@ -213,7 +213,7 @@ PrefabInstance:
     - target: {fileID: 4750447094513637725, guid: 816007cb65f658d458ffe2c955d19803,
         type: 3}
       propertyPath: m_Name
-      value: The Qord Ship (1)
+      value: The Qord Ship (11)
       objectReference: {fileID: 0}
     - target: {fileID: 6887863358064133622, guid: 816007cb65f658d458ffe2c955d19803,
         type: 3}
@@ -270,6 +270,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2407620378403059395, guid: 816007cb65f658d458ffe2c955d19803,
+        type: 3}
+      propertyPath: deathFX
+      value: 
+      objectReference: {fileID: 687928857479071911, guid: a16f12896be29804a8a51615b347b0dd,
+        type: 3}
+    - target: {fileID: 2407620378403059395, guid: 816007cb65f658d458ffe2c955d19803,
+        type: 3}
+      propertyPath: parent
+      value: 
+      objectReference: {fileID: 1725099406}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 816007cb65f658d458ffe2c955d19803, type: 3}
 --- !u!4 &49545193 stripped
@@ -288,7 +299,7 @@ PrefabInstance:
     - target: {fileID: 4750447094513637725, guid: 816007cb65f658d458ffe2c955d19803,
         type: 3}
       propertyPath: m_Name
-      value: The Qord Ship (5)
+      value: The Qord Ship (19)
       objectReference: {fileID: 0}
     - target: {fileID: 6887863358064133622, guid: 816007cb65f658d458ffe2c955d19803,
         type: 3}
@@ -345,6 +356,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2407620378403059395, guid: 816007cb65f658d458ffe2c955d19803,
+        type: 3}
+      propertyPath: deathFX
+      value: 
+      objectReference: {fileID: 687928857479071911, guid: a16f12896be29804a8a51615b347b0dd,
+        type: 3}
+    - target: {fileID: 2407620378403059395, guid: 816007cb65f658d458ffe2c955d19803,
+        type: 3}
+      propertyPath: parent
+      value: 
+      objectReference: {fileID: 1725099406}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 816007cb65f658d458ffe2c955d19803, type: 3}
 --- !u!4 &120279758 stripped
@@ -4842,7 +4864,7 @@ PrefabInstance:
     - target: {fileID: 4750447094513637725, guid: 816007cb65f658d458ffe2c955d19803,
         type: 3}
       propertyPath: m_Name
-      value: The Qord Ship (1)
+      value: The Qord Ship (12)
       objectReference: {fileID: 0}
     - target: {fileID: 6887863358064133622, guid: 816007cb65f658d458ffe2c955d19803,
         type: 3}
@@ -4882,7 +4904,7 @@ PrefabInstance:
     - target: {fileID: 6887863358064133622, guid: 816007cb65f658d458ffe2c955d19803,
         type: 3}
       propertyPath: m_RootOrder
-      value: 13
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 6887863358064133622, guid: 816007cb65f658d458ffe2c955d19803,
         type: 3}
@@ -4899,6 +4921,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2407620378403059395, guid: 816007cb65f658d458ffe2c955d19803,
+        type: 3}
+      propertyPath: deathFX
+      value: 
+      objectReference: {fileID: 687928857479071911, guid: a16f12896be29804a8a51615b347b0dd,
+        type: 3}
+    - target: {fileID: 2407620378403059395, guid: 816007cb65f658d458ffe2c955d19803,
+        type: 3}
+      propertyPath: parent
+      value: 
+      objectReference: {fileID: 1725099406}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 816007cb65f658d458ffe2c955d19803, type: 3}
 --- !u!4 &237179828 stripped
@@ -4974,6 +5007,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2407620378403059395, guid: 816007cb65f658d458ffe2c955d19803,
+        type: 3}
+      propertyPath: deathFX
+      value: 
+      objectReference: {fileID: 687928857479071911, guid: a16f12896be29804a8a51615b347b0dd,
+        type: 3}
+    - target: {fileID: 2407620378403059395, guid: 816007cb65f658d458ffe2c955d19803,
+        type: 3}
+      propertyPath: parent
+      value: 
+      objectReference: {fileID: 1725099406}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 816007cb65f658d458ffe2c955d19803, type: 3}
 --- !u!4 &255680953 stripped
@@ -4992,7 +5036,7 @@ PrefabInstance:
     - target: {fileID: 4750447094513637725, guid: 816007cb65f658d458ffe2c955d19803,
         type: 3}
       propertyPath: m_Name
-      value: The Qord Ship (2)
+      value: The Qord Ship (13)
       objectReference: {fileID: 0}
     - target: {fileID: 6887863358064133622, guid: 816007cb65f658d458ffe2c955d19803,
         type: 3}
@@ -5032,7 +5076,7 @@ PrefabInstance:
     - target: {fileID: 6887863358064133622, guid: 816007cb65f658d458ffe2c955d19803,
         type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 6887863358064133622, guid: 816007cb65f658d458ffe2c955d19803,
         type: 3}
@@ -5049,6 +5093,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2407620378403059395, guid: 816007cb65f658d458ffe2c955d19803,
+        type: 3}
+      propertyPath: deathFX
+      value: 
+      objectReference: {fileID: 687928857479071911, guid: a16f12896be29804a8a51615b347b0dd,
+        type: 3}
+    - target: {fileID: 2407620378403059395, guid: 816007cb65f658d458ffe2c955d19803,
+        type: 3}
+      propertyPath: parent
+      value: 
+      objectReference: {fileID: 1725099406}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 816007cb65f658d458ffe2c955d19803, type: 3}
 --- !u!4 &275863624 stripped
@@ -5172,7 +5227,7 @@ PrefabInstance:
     - target: {fileID: 4750447094513637725, guid: 816007cb65f658d458ffe2c955d19803,
         type: 3}
       propertyPath: m_Name
-      value: The Qord Ship (4)
+      value: The Qord Ship (16)
       objectReference: {fileID: 0}
     - target: {fileID: 6887863358064133622, guid: 816007cb65f658d458ffe2c955d19803,
         type: 3}
@@ -5229,6 +5284,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2407620378403059395, guid: 816007cb65f658d458ffe2c955d19803,
+        type: 3}
+      propertyPath: deathFX
+      value: 
+      objectReference: {fileID: 687928857479071911, guid: a16f12896be29804a8a51615b347b0dd,
+        type: 3}
+    - target: {fileID: 2407620378403059395, guid: 816007cb65f658d458ffe2c955d19803,
+        type: 3}
+      propertyPath: parent
+      value: 
+      objectReference: {fileID: 1725099406}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 816007cb65f658d458ffe2c955d19803, type: 3}
 --- !u!4 &546758287 stripped
@@ -5378,7 +5444,7 @@ PrefabInstance:
     - target: {fileID: 6887863358064133622, guid: 816007cb65f658d458ffe2c955d19803,
         type: 3}
       propertyPath: m_RootOrder
-      value: 12
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6887863358064133622, guid: 816007cb65f658d458ffe2c955d19803,
         type: 3}
@@ -5400,6 +5466,17 @@ PrefabInstance:
       propertyPath: explosionSound
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 2407620378403059395, guid: 816007cb65f658d458ffe2c955d19803,
+        type: 3}
+      propertyPath: deathFX
+      value: 
+      objectReference: {fileID: 687928857479071911, guid: a16f12896be29804a8a51615b347b0dd,
+        type: 3}
+    - target: {fileID: 2407620378403059395, guid: 816007cb65f658d458ffe2c955d19803,
+        type: 3}
+      propertyPath: parent
+      value: 
+      objectReference: {fileID: 1725099406}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 816007cb65f658d458ffe2c955d19803, type: 3}
 --- !u!4 &658929534 stripped
@@ -5600,7 +5677,7 @@ PrefabInstance:
     - target: {fileID: 4750447094513637725, guid: 816007cb65f658d458ffe2c955d19803,
         type: 3}
       propertyPath: m_Name
-      value: The Qord Ship (3)
+      value: The Qord Ship (20)
       objectReference: {fileID: 0}
     - target: {fileID: 6887863358064133622, guid: 816007cb65f658d458ffe2c955d19803,
         type: 3}
@@ -5657,6 +5734,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2407620378403059395, guid: 816007cb65f658d458ffe2c955d19803,
+        type: 3}
+      propertyPath: deathFX
+      value: 
+      objectReference: {fileID: 687928857479071911, guid: a16f12896be29804a8a51615b347b0dd,
+        type: 3}
+    - target: {fileID: 2407620378403059395, guid: 816007cb65f658d458ffe2c955d19803,
+        type: 3}
+      propertyPath: parent
+      value: 
+      objectReference: {fileID: 1725099406}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 816007cb65f658d458ffe2c955d19803, type: 3}
 --- !u!1001 &830483309
@@ -5669,7 +5757,7 @@ PrefabInstance:
     - target: {fileID: 4750447094513637725, guid: 816007cb65f658d458ffe2c955d19803,
         type: 3}
       propertyPath: m_Name
-      value: The Qord Ship (1)
+      value: The Qord Ship (21)
       objectReference: {fileID: 0}
     - target: {fileID: 6887863358064133622, guid: 816007cb65f658d458ffe2c955d19803,
         type: 3}
@@ -5726,6 +5814,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2407620378403059395, guid: 816007cb65f658d458ffe2c955d19803,
+        type: 3}
+      propertyPath: deathFX
+      value: 
+      objectReference: {fileID: 687928857479071911, guid: a16f12896be29804a8a51615b347b0dd,
+        type: 3}
+    - target: {fileID: 2407620378403059395, guid: 816007cb65f658d458ffe2c955d19803,
+        type: 3}
+      propertyPath: parent
+      value: 
+      objectReference: {fileID: 1725099406}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 816007cb65f658d458ffe2c955d19803, type: 3}
 --- !u!1001 &897831068
@@ -5778,7 +5877,7 @@ PrefabInstance:
     - target: {fileID: 6887863358064133622, guid: 816007cb65f658d458ffe2c955d19803,
         type: 3}
       propertyPath: m_RootOrder
-      value: 10
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6887863358064133622, guid: 816007cb65f658d458ffe2c955d19803,
         type: 3}
@@ -5795,6 +5894,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2407620378403059395, guid: 816007cb65f658d458ffe2c955d19803,
+        type: 3}
+      propertyPath: deathFX
+      value: 
+      objectReference: {fileID: 687928857479071911, guid: a16f12896be29804a8a51615b347b0dd,
+        type: 3}
+    - target: {fileID: 2407620378403059395, guid: 816007cb65f658d458ffe2c955d19803,
+        type: 3}
+      propertyPath: parent
+      value: 
+      objectReference: {fileID: 1725099406}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 816007cb65f658d458ffe2c955d19803, type: 3}
 --- !u!4 &897831069 stripped
@@ -5813,7 +5923,7 @@ PrefabInstance:
     - target: {fileID: 4750447094513637725, guid: 816007cb65f658d458ffe2c955d19803,
         type: 3}
       propertyPath: m_Name
-      value: The Qord Ship
+      value: The Qord Ship (22)
       objectReference: {fileID: 0}
     - target: {fileID: 6887863358064133622, guid: 816007cb65f658d458ffe2c955d19803,
         type: 3}
@@ -5870,6 +5980,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2407620378403059395, guid: 816007cb65f658d458ffe2c955d19803,
+        type: 3}
+      propertyPath: deathFX
+      value: 
+      objectReference: {fileID: 687928857479071911, guid: a16f12896be29804a8a51615b347b0dd,
+        type: 3}
+    - target: {fileID: 2407620378403059395, guid: 816007cb65f658d458ffe2c955d19803,
+        type: 3}
+      propertyPath: parent
+      value: 
+      objectReference: {fileID: 1725099406}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 816007cb65f658d458ffe2c955d19803, type: 3}
 --- !u!1 &1124036936
@@ -5990,20 +6111,20 @@ Transform:
   m_LocalPosition: {x: 11.271843, y: -0.09614965, z: 2.1937761}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 658929534}
   - {fileID: 1937600529}
   - {fileID: 1161493132}
   - {fileID: 1591900235}
-  - {fileID: 275863624}
-  - {fileID: 1920541311}
   - {fileID: 2065052372}
+  - {fileID: 897831069}
   - {fileID: 255680953}
   - {fileID: 1161000533}
   - {fileID: 2116042405}
   - {fileID: 1829437487}
-  - {fileID: 897831069}
+  - {fileID: 1920541311}
   - {fileID: 49545193}
-  - {fileID: 658929534}
   - {fileID: 237179828}
+  - {fileID: 275863624}
   - {fileID: 1643372131}
   - {fileID: 2038648743}
   - {fileID: 546758287}
@@ -6083,6 +6204,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2407620378403059395, guid: 816007cb65f658d458ffe2c955d19803,
+        type: 3}
+      propertyPath: deathFX
+      value: 
+      objectReference: {fileID: 687928857479071911, guid: a16f12896be29804a8a51615b347b0dd,
+        type: 3}
+    - target: {fileID: 2407620378403059395, guid: 816007cb65f658d458ffe2c955d19803,
+        type: 3}
+      propertyPath: parent
+      value: 
+      objectReference: {fileID: 1725099406}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 816007cb65f658d458ffe2c955d19803, type: 3}
 --- !u!4 &1161000533 stripped
@@ -6141,7 +6273,7 @@ PrefabInstance:
     - target: {fileID: 6887863358064133622, guid: 816007cb65f658d458ffe2c955d19803,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6887863358064133622, guid: 816007cb65f658d458ffe2c955d19803,
         type: 3}
@@ -6158,6 +6290,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2407620378403059395, guid: 816007cb65f658d458ffe2c955d19803,
+        type: 3}
+      propertyPath: deathFX
+      value: 
+      objectReference: {fileID: 687928857479071911, guid: a16f12896be29804a8a51615b347b0dd,
+        type: 3}
+    - target: {fileID: 2407620378403059395, guid: 816007cb65f658d458ffe2c955d19803,
+        type: 3}
+      propertyPath: parent
+      value: 
+      objectReference: {fileID: 1725099406}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 816007cb65f658d458ffe2c955d19803, type: 3}
 --- !u!4 &1161493132 stripped
@@ -6176,7 +6319,7 @@ PrefabInstance:
     - target: {fileID: 4750447094513637725, guid: 816007cb65f658d458ffe2c955d19803,
         type: 3}
       propertyPath: m_Name
-      value: The Qord Ship (2)
+      value: The Qord Ship (17)
       objectReference: {fileID: 0}
     - target: {fileID: 6887863358064133622, guid: 816007cb65f658d458ffe2c955d19803,
         type: 3}
@@ -6233,6 +6376,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2407620378403059395, guid: 816007cb65f658d458ffe2c955d19803,
+        type: 3}
+      propertyPath: deathFX
+      value: 
+      objectReference: {fileID: 687928857479071911, guid: a16f12896be29804a8a51615b347b0dd,
+        type: 3}
+    - target: {fileID: 2407620378403059395, guid: 816007cb65f658d458ffe2c955d19803,
+        type: 3}
+      propertyPath: parent
+      value: 
+      objectReference: {fileID: 1725099406}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 816007cb65f658d458ffe2c955d19803, type: 3}
 --- !u!4 &1308759889 stripped
@@ -6257,7 +6411,7 @@ PrefabInstance:
     - target: {fileID: 4750447094513637725, guid: 816007cb65f658d458ffe2c955d19803,
         type: 3}
       propertyPath: m_Name
-      value: The Qord Ship (4)
+      value: The Qord Ship (18)
       objectReference: {fileID: 0}
     - target: {fileID: 6887863358064133622, guid: 816007cb65f658d458ffe2c955d19803,
         type: 3}
@@ -6314,6 +6468,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2407620378403059395, guid: 816007cb65f658d458ffe2c955d19803,
+        type: 3}
+      propertyPath: deathFX
+      value: 
+      objectReference: {fileID: 687928857479071911, guid: a16f12896be29804a8a51615b347b0dd,
+        type: 3}
+    - target: {fileID: 2407620378403059395, guid: 816007cb65f658d458ffe2c955d19803,
+        type: 3}
+      propertyPath: parent
+      value: 
+      objectReference: {fileID: 1725099406}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 816007cb65f658d458ffe2c955d19803, type: 3}
 --- !u!4 &1404464949 stripped
@@ -6657,7 +6822,7 @@ PrefabInstance:
     - target: {fileID: 6887863358064133622, guid: 816007cb65f658d458ffe2c955d19803,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6887863358064133622, guid: 816007cb65f658d458ffe2c955d19803,
         type: 3}
@@ -6689,6 +6854,17 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2407620378403059395, guid: 816007cb65f658d458ffe2c955d19803,
+        type: 3}
+      propertyPath: deathFX
+      value: 
+      objectReference: {fileID: 687928857479071911, guid: a16f12896be29804a8a51615b347b0dd,
+        type: 3}
+    - target: {fileID: 2407620378403059395, guid: 816007cb65f658d458ffe2c955d19803,
+        type: 3}
+      propertyPath: parent
+      value: 
+      objectReference: {fileID: 1725099406}
     - target: {fileID: 2562539196932728181, guid: 816007cb65f658d458ffe2c955d19803,
         type: 3}
       propertyPath: m_IsTrigger
@@ -6712,7 +6888,7 @@ PrefabInstance:
     - target: {fileID: 4750447094513637725, guid: 816007cb65f658d458ffe2c955d19803,
         type: 3}
       propertyPath: m_Name
-      value: The Qord Ship (2)
+      value: The Qord Ship (14)
       objectReference: {fileID: 0}
     - target: {fileID: 6887863358064133622, guid: 816007cb65f658d458ffe2c955d19803,
         type: 3}
@@ -6769,6 +6945,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2407620378403059395, guid: 816007cb65f658d458ffe2c955d19803,
+        type: 3}
+      propertyPath: deathFX
+      value: 
+      objectReference: {fileID: 687928857479071911, guid: a16f12896be29804a8a51615b347b0dd,
+        type: 3}
+    - target: {fileID: 2407620378403059395, guid: 816007cb65f658d458ffe2c955d19803,
+        type: 3}
+      propertyPath: parent
+      value: 
+      objectReference: {fileID: 1725099406}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 816007cb65f658d458ffe2c955d19803, type: 3}
 --- !u!4 &1643372131 stripped
@@ -6941,6 +7128,12 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 2932cabc2289c6245a60ed44ae354f49, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d814a044eb7baac4ebe19a789cb222da, type: 3}
+--- !u!4 &1725099406 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5427627530332152924, guid: f0c142011642535478dbf43fa3e6c35f,
+    type: 3}
+  m_PrefabInstance: {fileID: 5427627528615807442}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1829437486
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7008,6 +7201,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2407620378403059395, guid: 816007cb65f658d458ffe2c955d19803,
+        type: 3}
+      propertyPath: deathFX
+      value: 
+      objectReference: {fileID: 687928857479071911, guid: a16f12896be29804a8a51615b347b0dd,
+        type: 3}
+    - target: {fileID: 2407620378403059395, guid: 816007cb65f658d458ffe2c955d19803,
+        type: 3}
+      propertyPath: parent
+      value: 
+      objectReference: {fileID: 1725099406}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 816007cb65f658d458ffe2c955d19803, type: 3}
 --- !u!4 &1829437487 stripped
@@ -7026,7 +7230,7 @@ PrefabInstance:
     - target: {fileID: 4750447094513637725, guid: 816007cb65f658d458ffe2c955d19803,
         type: 3}
       propertyPath: m_Name
-      value: The Qord Ship (3)
+      value: The Qord Ship (10)
       objectReference: {fileID: 0}
     - target: {fileID: 6887863358064133622, guid: 816007cb65f658d458ffe2c955d19803,
         type: 3}
@@ -7066,7 +7270,7 @@ PrefabInstance:
     - target: {fileID: 6887863358064133622, guid: 816007cb65f658d458ffe2c955d19803,
         type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 6887863358064133622, guid: 816007cb65f658d458ffe2c955d19803,
         type: 3}
@@ -7083,6 +7287,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2407620378403059395, guid: 816007cb65f658d458ffe2c955d19803,
+        type: 3}
+      propertyPath: deathFX
+      value: 
+      objectReference: {fileID: 687928857479071911, guid: a16f12896be29804a8a51615b347b0dd,
+        type: 3}
+    - target: {fileID: 2407620378403059395, guid: 816007cb65f658d458ffe2c955d19803,
+        type: 3}
+      propertyPath: parent
+      value: 
+      objectReference: {fileID: 1725099406}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 816007cb65f658d458ffe2c955d19803, type: 3}
 --- !u!4 &1920541311 stripped
@@ -7141,7 +7356,7 @@ PrefabInstance:
     - target: {fileID: 6887863358064133622, guid: 816007cb65f658d458ffe2c955d19803,
         type: 3}
       propertyPath: m_RootOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6887863358064133622, guid: 816007cb65f658d458ffe2c955d19803,
         type: 3}
@@ -7163,6 +7378,17 @@ PrefabInstance:
       propertyPath: explosion
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 2407620378403059395, guid: 816007cb65f658d458ffe2c955d19803,
+        type: 3}
+      propertyPath: deathFX
+      value: 
+      objectReference: {fileID: 687928857479071911, guid: a16f12896be29804a8a51615b347b0dd,
+        type: 3}
+    - target: {fileID: 2407620378403059395, guid: 816007cb65f658d458ffe2c955d19803,
+        type: 3}
+      propertyPath: parent
+      value: 
+      objectReference: {fileID: 1725099406}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 816007cb65f658d458ffe2c955d19803, type: 3}
 --- !u!4 &1937600529 stripped
@@ -7284,7 +7510,7 @@ PrefabInstance:
     - target: {fileID: 4750447094513637725, guid: 816007cb65f658d458ffe2c955d19803,
         type: 3}
       propertyPath: m_Name
-      value: The Qord Ship (3)
+      value: The Qord Ship (15)
       objectReference: {fileID: 0}
     - target: {fileID: 6887863358064133622, guid: 816007cb65f658d458ffe2c955d19803,
         type: 3}
@@ -7341,6 +7567,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2407620378403059395, guid: 816007cb65f658d458ffe2c955d19803,
+        type: 3}
+      propertyPath: deathFX
+      value: 
+      objectReference: {fileID: 687928857479071911, guid: a16f12896be29804a8a51615b347b0dd,
+        type: 3}
+    - target: {fileID: 2407620378403059395, guid: 816007cb65f658d458ffe2c955d19803,
+        type: 3}
+      propertyPath: parent
+      value: 
+      objectReference: {fileID: 1725099406}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 816007cb65f658d458ffe2c955d19803, type: 3}
 --- !u!4 &2038648743 stripped
@@ -7399,7 +7636,7 @@ PrefabInstance:
     - target: {fileID: 6887863358064133622, guid: 816007cb65f658d458ffe2c955d19803,
         type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 6887863358064133622, guid: 816007cb65f658d458ffe2c955d19803,
         type: 3}
@@ -7416,6 +7653,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2407620378403059395, guid: 816007cb65f658d458ffe2c955d19803,
+        type: 3}
+      propertyPath: deathFX
+      value: 
+      objectReference: {fileID: 687928857479071911, guid: a16f12896be29804a8a51615b347b0dd,
+        type: 3}
+    - target: {fileID: 2407620378403059395, guid: 816007cb65f658d458ffe2c955d19803,
+        type: 3}
+      propertyPath: parent
+      value: 
+      objectReference: {fileID: 1725099406}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 816007cb65f658d458ffe2c955d19803, type: 3}
 --- !u!4 &2065052372 stripped
@@ -7582,6 +7830,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2407620378403059395, guid: 816007cb65f658d458ffe2c955d19803,
+        type: 3}
+      propertyPath: deathFX
+      value: 
+      objectReference: {fileID: 687928857479071911, guid: a16f12896be29804a8a51615b347b0dd,
+        type: 3}
+    - target: {fileID: 2407620378403059395, guid: 816007cb65f658d458ffe2c955d19803,
+        type: 3}
+      propertyPath: parent
+      value: 
+      objectReference: {fileID: 1725099406}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 816007cb65f658d458ffe2c955d19803, type: 3}
 --- !u!4 &2116042405 stripped
@@ -7823,6 +8082,75 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 05a6bd2dcfeecf847934800bc3dc2ce3, type: 3}
+--- !u!1001 &5427627528615807442
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5427627530332152927, guid: f0c142011642535478dbf43fa3e6c35f,
+        type: 3}
+      propertyPath: m_Name
+      value: Spawned At Runtime
+      objectReference: {fileID: 0}
+    - target: {fileID: 5427627530332152924, guid: f0c142011642535478dbf43fa3e6c35f,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 9.817871
+      objectReference: {fileID: 0}
+    - target: {fileID: 5427627530332152924, guid: f0c142011642535478dbf43fa3e6c35f,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.053710938
+      objectReference: {fileID: 0}
+    - target: {fileID: 5427627530332152924, guid: f0c142011642535478dbf43fa3e6c35f,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.9970703
+      objectReference: {fileID: 0}
+    - target: {fileID: 5427627530332152924, guid: f0c142011642535478dbf43fa3e6c35f,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5427627530332152924, guid: f0c142011642535478dbf43fa3e6c35f,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5427627530332152924, guid: f0c142011642535478dbf43fa3e6c35f,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5427627530332152924, guid: f0c142011642535478dbf43fa3e6c35f,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5427627530332152924, guid: f0c142011642535478dbf43fa3e6c35f,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5427627530332152924, guid: f0c142011642535478dbf43fa3e6c35f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5427627530332152924, guid: f0c142011642535478dbf43fa3e6c35f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5427627530332152924, guid: f0c142011642535478dbf43fa3e6c35f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f0c142011642535478dbf43fa3e6c35f, type: 3}
 --- !u!1001 &6935969620810138278
 PrefabInstance:
   m_ObjectHideFlags: 0
