@@ -26,6 +26,7 @@ public class PlayerController : MonoBehaviour
     [Header("Parameters")]
     public float xySpeed = 0.2f;
     public float lookSpeed = 10000f;
+    [SerializeField] GameObject[] bullets;
 
     [Space]
 
@@ -58,6 +59,7 @@ public class PlayerController : MonoBehaviour
             LocalMove(h, -v, xySpeed);
             RotationLook(h, -v, lookSpeed);
             HorizontalLean(playerModel, h, 80, 0.035f);
+            ProcessFiring();
         }
         
 
@@ -96,6 +98,35 @@ public class PlayerController : MonoBehaviour
         target.localEulerAngles = new Vector3(targetEulerAngels.x, targetEulerAngels.y, Mathf.LerpAngle(targetEulerAngels.z, -axis * leanLimit, lerpTime));
     }
 
+    void ProcessFiring() 
+    {
+        if (Input.GetButtonDown("Fire"))
+        {
+            ActivateGuns();
+        }
+        else if (!Input.GetButtonDown("Fire")) 
+        {
+            DeactivateGuns();
+        }
+    }
+
+    private void ActivateGuns() 
+    {
+        foreach (GameObject bullet in bullets) 
+        {
+            print(bullet.transform.position);
+            bullet.SetActive(true);
+        }
+    }
+
+    private void DeactivateGuns()
+    {
+        foreach (GameObject bullet in bullets)
+        {
+            bullet.SetActive(false);
+        }
+    }
+
     public void QuickSpin(int direction) 
     {
         if (!DOTween.IsTweening(playerModel)) 
@@ -121,5 +152,6 @@ public class PlayerController : MonoBehaviour
         audioSource.PlayOneShot(explosionSound);
         print("control is frozen");
     }
+
 
 }

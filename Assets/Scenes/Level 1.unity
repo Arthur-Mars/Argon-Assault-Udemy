@@ -6790,6 +6790,12 @@ Transform:
   m_Father: {fileID: 126705716}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -44.332}
+--- !u!1 &1453376453 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1654839632287651725, guid: 05a6bd2dcfeecf847934800bc3dc2ce3,
+    type: 3}
+  m_PrefabInstance: {fileID: 1654839632859262647}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1462368072 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: d814a044eb7baac4ebe19a789cb222da,
@@ -8370,9 +8376,34 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1654839632096687407, guid: 05a6bd2dcfeecf847934800bc3dc2ce3,
         type: 3}
+      propertyPath: bullet.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1654839632096687407, guid: 05a6bd2dcfeecf847934800bc3dc2ce3,
+        type: 3}
+      propertyPath: bullets.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1654839632096687407, guid: 05a6bd2dcfeecf847934800bc3dc2ce3,
+        type: 3}
       propertyPath: aimTarget
       value: 
       objectReference: {fileID: 2011141511}
+    - target: {fileID: 1654839632096687407, guid: 05a6bd2dcfeecf847934800bc3dc2ce3,
+        type: 3}
+      propertyPath: bullet.Array.data[0]
+      value: 
+      objectReference: {fileID: 1453376453}
+    - target: {fileID: 1654839632096687407, guid: 05a6bd2dcfeecf847934800bc3dc2ce3,
+        type: 3}
+      propertyPath: bullets.Array.data[0]
+      value: 
+      objectReference: {fileID: 1453376453}
+    - target: {fileID: 1654839632096687407, guid: 05a6bd2dcfeecf847934800bc3dc2ce3,
+        type: 3}
+      propertyPath: bullets.Array.data[1]
+      value: 
+      objectReference: {fileID: 1453376453}
     - target: {fileID: 1654839632130873360, guid: 05a6bd2dcfeecf847934800bc3dc2ce3,
         type: 3}
       propertyPath: playOnAwake
@@ -8382,6 +8413,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_PlayOnAwake
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1654839632287651722, guid: 05a6bd2dcfeecf847934800bc3dc2ce3,
+        type: 3}
+      propertyPath: playOnAwake
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 05a6bd2dcfeecf847934800bc3dc2ce3, type: 3}
