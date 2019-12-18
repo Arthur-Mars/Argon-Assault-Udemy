@@ -41,6 +41,8 @@ public class PlayerController : MonoBehaviour
 
     AudioSource audioSource;
 
+    bool gunsActive = false;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -98,20 +100,26 @@ public class PlayerController : MonoBehaviour
         target.localEulerAngles = new Vector3(targetEulerAngels.x, targetEulerAngels.y, Mathf.LerpAngle(targetEulerAngels.z, -axis * leanLimit, lerpTime));
     }
 
+    
+
     void ProcessFiring() 
     {
-        if (Input.GetButtonDown("Fire"))
+        if (Input.GetButton("Fire"))
         {
-            ActivateGuns();
+            if (!gunsActive) { ActivateGuns(); }
+            gunsActive = true;
         }
-        else if (!Input.GetButtonDown("Fire")) 
+        else if (gunsActive) 
         {
             DeactivateGuns();
+            gunsActive = false;
         }
     }
 
     private void ActivateGuns() 
     {
+        Debug.Log(Time.frameCount + " --- ActivateGuns called.");
+
         foreach (GameObject bullet in bullets) 
         {
             print(bullet.transform.position);
