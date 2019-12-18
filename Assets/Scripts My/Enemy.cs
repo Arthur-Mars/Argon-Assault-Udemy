@@ -32,7 +32,7 @@ public class Enemy : MonoBehaviour
 
     void OnParticleCollision(GameObject other) // detects collision with the particles (bullets)
     {
-        scoreBoard.ScoreHit(scorePerHit);
+        scoreBoard?.ScoreHit(scorePerHit);
         GameObject fx = Instantiate(deathFX, transform.position, Quaternion.identity); // create deathFX, at transform position, and don't rotate it
         fx.transform.parent = parent;
         print("particle location = " + fx.transform.position);
